@@ -15,6 +15,7 @@ namespace CSharpAlgos.Algorithms
             {
                 richest = Math.Max(richest, account.Sum());
             }
+
             return richest;
         }
     }
