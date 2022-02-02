@@ -1,4 +1,4 @@
-﻿namespace CSharpAlgos.Algorithms
+﻿namespace CSharpAlgos.Leetcode
 {
     internal class FindAllAnagramsInAString
     {

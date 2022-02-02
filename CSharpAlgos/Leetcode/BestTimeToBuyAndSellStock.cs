@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpAlgos.Algorithms
+namespace CSharpAlgos.Leetcode
 {
     internal class BestTimeToBuyAndSellStock
     {
