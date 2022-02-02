@@ -10,10 +10,10 @@ namespace CSharpAlgos.Algorithms
     {
         public static int Search(int[] nums, int target)
         {
-            return binarySearch(nums, target, 0, nums.Length - 1);
+            return BinarySearching(nums, target, 0, nums.Length - 1);
         }
 
-        private static int binarySearch(int[] nums, int target, int leftPointer, int rightPointer)
+        private static int BinarySearching(int[] nums, int target, int leftPointer, int rightPointer)
         {
             if (leftPointer > rightPointer)
             {
@@ -26,9 +26,9 @@ namespace CSharpAlgos.Algorithms
             }
             else if (target < nums[mid])
             {
-                return binarySearch(nums, target, leftPointer, mid - 1);
+                return BinarySearching(nums, target, leftPointer, mid - 1);
             }
-            return binarySearch(nums, target, mid + 1, rightPointer);
+            return BinarySearching(nums, target, mid + 1, rightPointer);
         }
     }
 }

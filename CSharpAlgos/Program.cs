@@ -1,5 +1,5 @@
 ﻿using CSharpAlgos.Algorithms;
 using CSharpAlgos.Leetcode;
 
-Console.WriteLine(CSharpAlgos.Leetcode.FirstBadItem.FirstBadVersion(2));
+Console.WriteLine(SearchInsertPosition.SearchInsert(new int[] { 1, 3, 5, 6 }, 7));
 
