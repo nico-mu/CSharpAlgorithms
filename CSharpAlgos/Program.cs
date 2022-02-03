@@ -1,5 +1,10 @@
 ﻿using CSharpAlgos.Algorithms;
 using CSharpAlgos.Leetcode;
 
-Console.WriteLine(SearchInsertPosition.SearchInsert(new int[] { 1, 3, 5, 6 }, 7));
+
+foreach (int e in SquaresOfASortedArray.SortedSquares(new int[] { -7, -3, 2, 3, 11 }))
+{
+    Console.WriteLine(e);
+}
+
 
