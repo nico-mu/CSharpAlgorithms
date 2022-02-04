@@ -2,9 +2,7 @@
 using CSharpAlgos.Leetcode;
 
 
-foreach (int e in MoveZeros.MoveZeroes(new int[] { 4, 2, 4, 0, 0, 3, 0, 5, 1, 0 }))
+foreach (int e in TwoSum.TwoSumSol(new int[] { -1, 0 }, -1))
 {
     Console.WriteLine(e);
 }
-
-
