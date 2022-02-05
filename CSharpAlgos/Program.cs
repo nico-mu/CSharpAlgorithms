@@ -2,7 +2,7 @@
 using CSharpAlgos.Leetcode;
 
 
-foreach (int e in TwoSum.TwoSumSol(new int[] { -1, 0 }, -1))
+foreach (int e in ReverseString.SolveReverseString(new char[] { 'h', 'e', 'l', 'l', 'o' }))
 {
     Console.WriteLine(e);
 }
