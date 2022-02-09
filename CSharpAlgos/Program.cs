@@ -2,4 +2,4 @@
 using CSharpAlgos.Leetcode;
 
 
-Console.WriteLine(MaxAreaOfIsland.SolveMaxAreaOfIsland(new int[][] { new int[] { 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0 }, new int[] { 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0 }, new int[] { 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0 }, new int[] { 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0 }, new int[] { 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0 }, new int[] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0 }, new int[] { 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0 }, new int[] { 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0 } }));
+Console.WriteLine(KDiffPairsInAnArray.FindPairs(new int[] { 1, 3, 1, 5, 4 }, 0));
