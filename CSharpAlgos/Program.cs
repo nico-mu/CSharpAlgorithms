@@ -1,5 +1,8 @@
 ﻿using CSharpAlgos.Algorithms;
 using CSharpAlgos.Leetcode;
 
+foreach (IList<int> l in Combinations.Combine(4, 2))
+{
+    Console.WriteLine(l[0].ToString(), l[1].ToString());
+}
 
-Console.WriteLine(KDiffPairsInAnArray.FindPairs(new int[] { 1, 3, 1, 5, 4 }, 0));
