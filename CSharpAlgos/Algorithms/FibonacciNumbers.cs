@@ -11,7 +11,7 @@ namespace CSharpAlgos.Algorithms
         int[] cache;
         public int CalcFibonacci(int n)
         {
-            cache = new int[n];
+            cache = new int[n + 1];
             return DynamicFib(n);
         }
 
